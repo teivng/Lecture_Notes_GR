@@ -7,6 +7,14 @@ These lectures develop the theory from first principles and aim at an audience r
 I agree with [Ernest Yeung](https://github.com/ernestyalumni) that these lectures are "unequivocally, the best, most lucid, and well-constructed lecture series on General Relativity and Gravity". This repository has been created by forking his repository [ernestyalumni/Gravite](https://github.com/ernestyalumni/Gravite).
 
 ----------
+### PDFs
+* [`main.pdf`](main.pdf): the lecture notes (`main.tex`)
+* [`pdfs/main_complete.pdf`](pdfs/main_complete.pdf): lecture notes plus all tutorial sheets, interleaved after their lectures (`main_complete.tex`)
+* [`pdfs/Gravity_Notes_grande.pdf`](pdfs/Gravity_Notes_grande.pdf): the original combined notes (`Gravity_Notes_grande.tex`)
+
+Build any of them with `latexmk -pdf <file>.tex`.
+
+----------
 ### Why this fork
 The initial purpose of this fork is the following:
 * filling in missing parts in lectures or to modify existing parts to suit me better
